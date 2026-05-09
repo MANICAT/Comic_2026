@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COMIC 2026 | Beranda</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="stars"></div>
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<audio id="clickSound"
+src="https://assets.mixkit.co/sfx/preview/mixkit-fast-small-sweep-transition-166.wav">
+</audio>
+
+<!-- LOADING -->
+<div id="loading">
+    <div class="loading-title">
+         <span>C</span><span>O</span><span>M</span><span>I</span><span>C</span>
+    </div>
+    <div class="loading-text">initializing jungle tech system...</div>
+    <div class="loading-bar">
+        <div class="loading-progress"></div>
+    </div>
+</div>
+
+<!-- NAVBAR -->
+<div class="topbar">
+    <div class="logo">COMIC 2026</div>
+    <div class="hamburger">
+        <span></span><span></span><span></span>
+    </div>
+</div>
+
+<!-- SIDE MENU -->
+<div class="side-menu" id="sideMenu">
+
+<div class="close-btn" id="closeMenu">✕</div>
+
+<ul>
+<li><a href="#hero">Beranda</a></li>
+<li><a href="#kategori">Lomba</a></li>
+<li><a href="#about">Tentang IC</a></li>
+<li><a href="#countdown">Jadwal</a></li>
+<li><a href="#lokasi">Lokasi</a></li>
+</ul>
+
+</div>
+
+<div class="side-overlay" id="sideOverlay"></div>
+
+<!-- HERO -->
+<div class="hero" id="hero">
+<h1>COMIC 2026</h1>
+
+<div class="subtitle">
+Competition of MAN Insan Cendekia Aceh Timur
+</div>
+
+<div class="buttons">
+<a href="daftar.html" class="btn daftar">
+<span>Daftar Sekarang</span>
+</a>
+
+<a href="panduan.html" class="btn panduan">
+<span>Panduan</span>
+</a>
+</div>
+</div>
+
+<!-- COUNTDOWN -->
+<section class="countdown-section reveal" id="countdown">
+
+<h1>Batas Waktu Pendaftaran</h1>
+
+<p id="countdown-text">Prepare Yourself Before The Portal Closes</p>
+
+<div class="countdown-boxes">
+
+<div class="box">
+<span id="days">00</span>
+<small>Hari</small>
+</div>
+
+<div class="box">
+<span id="hours">00</span>
+<small>Jam</small>
+</div>
+
+<div class="box">
+<span id="minutes">00</span>
+<small>Menit</small>
+</div>
+
+<div class="box">
+<span id="seconds">00</span>
+<small>Detik</small>
+</div>
+
+</div>
+</section>
+
+<!-- KATEGORI -->
+<section class="reveal" id="kategori">
+
+<h2>Kategori Kompetisi</h2>
+
+<div class="kategori-grid">
+
+<div class="kategori-card">
+<h3>🔬 Science & Technology</h3>
+<p>Kompetisi sains modern seperti fisika, matematika, robotik, dan teknologi.</p>
+</div>
+
+<div class="kategori-card">
+<h3>🌐 Language</h3>
+<p>Lomba bahasa seperti speech, storytelling, debate, dan communication skill.</p>
+</div>
+
+<div class="kategori-card">
+<h3>📰 Journalistic</h3>
+<p>Kompetisi jurnalistik seperti essay writing, news casting, photography.</p>
+</div>
+
+<div class="kategori-card">
+<h3>🎭 Sport, Art & Culture</h3>
+<p>Lomba olahraga, seni, dan budaya yang membangun kreativitas siswa.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+<section class="reveal" id="about">
+
+<h2>MAN IC Aceh Timur</h2>
+
+<div class="about">
+
+<p>
+COMIC 2026 adalah event kompetisi akademik, non akademik, teknologi, seni, dan budaya yang diselenggarakan oleh MAN Insan Cendekia Aceh Timur sebagai wadah generasi muda untuk berkembang.
+</p>
+
+<p>
+Mengusung konsep futuristik dan eksploratif, COMIC 2026 menghadirkan pengalaman lomba yang kompetitif, modern, dan inspiratif.
+</p>
+
+</div>
+
+</section>
+
+<!-- LOKASI -->
+<section id="lokasi" class="reveal">
+
+<h2>Location of MAN IC Aceh Timur</h2>
+
+<div class="map-box">
+
+<iframe
+src="https://maps.google.com/maps?q=MAN%20Insan%20Cendekia%20Aceh%20Timur&t=&z=15&ie=UTF8&iwloc=&output=embed"
+frameborder="0"
+scrolling="no"
+marginheight="0"
+marginwidth="0">
+</iframe>
+
+</div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
